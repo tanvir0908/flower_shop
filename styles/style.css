@@ -149,3 +149,59 @@
 .sale-image {
   width: 250px;
 }
+
+/* Instagram Section */
+.instagram {
+  margin: 8rem 8.25rem;
+}
+.instagram-top {
+  text-align: center;
+}
+.instagram-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 1rem;
+}
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 25px;
+}
+.instagram-middle {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  justify-content: center;
+  gap: 1rem;
+  display: flex;
+}
+.instagram-image {
+  width: 260px;
+}
+.instagram-bottom {
+  text-align: center;
+  border-radius: 8px;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/Rectangle\ 9.png");
+}
+.sub-title {
+  padding-top: 4rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 1rem;
+}
+.sub-description {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 25px;
+  margin-bottom: 2rem;
+}
+.sub-input {
+  padding: 0 20px;
+  width: 500px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 1rem;
+}
