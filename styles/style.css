@@ -11,17 +11,17 @@
 .home {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100vh;
   width: 100%;
   background-color: rgba(229, 84, 115, 0.1);
 }
 .left-home {
-  width: 50%;
+  width: 40%;
   padding-left: 10rem;
 }
 .right-home {
-  padding-right: 10rem;
+  padding-right: 7rem;
 }
 .home-title {
   font-size: 3.5rem;
@@ -47,5 +47,53 @@
 .home-image {
   padding-top: 5rem;
   width: 508px;
-  height: 640px;
+  height: 571px;
+}
+
+/* Feature Section */
+.feature {
+  margin: 8rem 10rem;
+}
+.feature-title-section {
+  text-align: center;
+}
+.feature-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 1rem;
+}
+.feature-description {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 25px;
+}
+.feature-flowers {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.flower1-image {
+  width: 264px;
+  height: 338px;
+  padding: 0 3rem;
+  padding-top: 5rem;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.flower2-image {
+  width: 264px;
+  height: 338px;
+  padding: 0 3rem;
+  padding-top: 5rem;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.flower3-image {
+  width: 264px;
+  height: 338px;
+  padding: 0 3rem;
+  padding-top: 5rem;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
