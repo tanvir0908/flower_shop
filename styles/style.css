@@ -117,3 +117,35 @@
   color: rgba(39, 39, 39, 0.8);
   font-weight: 600;
 }
+
+/* Sale Section */
+.sale {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70vh;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.sale-left {
+  width: 40%;
+  text-align: center;
+}
+.sale-title {
+  font-size: 2rem;
+  color: #272727;
+  font-weight: 800;
+}
+.sale-off {
+  color: #e55473;
+}
+.sale-description {
+  color: rgba(39, 39, 39, 0.6);
+  margin: 1rem 0;
+  line-height: 25px;
+}
+.sale-right {
+  margin-right: 5rem;
+}
+.sale-image {
+  width: 250px;
+}
